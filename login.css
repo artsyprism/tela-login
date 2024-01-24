@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #040303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacoes {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentacoes > h1 {
+    margin-bottom: 35px;
+    color: #ea5278;
+    font-size: 2vw;
+    font-family: 'Helvetica';
+}
+
+.animacao {
+    width: 25vw;
+}
+
+.login-usuario {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1E1E1E;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #000000;
+}
+
+.card-login > h1 {
+    color: #ea5278;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+.campo-digitavel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.campo-digitavel > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #3b3a3a;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #1f1f1f;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.campo-digitavel > label {
+    color: #EBE8E8;
+    margin-bottom: 10px;
+}
+
+.campo-digitavel > input::placeholder{
+    color: #bbb3b3;
+}
+
+.botao-login {
+    width: 100%;
+    padding: 12px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: #ea5278;
+    color: #ffffff;
+    box-shadow: 0px 10px 40px -12px #CD4365;
+}
